@@ -1,4 +1,31 @@
-{% block content %}
-<h1>Home</h1>
 
-{% endblock %}
+
+<!DOCTYPE html>
+
+<html lang='en'>
+
+<head>
+
+<meta charset="utf-8" />
+
+<title>integer form</title>
+
+</head>
+
+<body>
+<div class="col-2">
+    <h1>Home</h1>
+    <h3>Enter an integer value</h3>
+    <form action="/calculate" method="POST">
+        <label for="number">Enter a number:</label>
+        <input type="text" id="number" name="number" placeholder="Enter a number">
+        <button type = "submit">Submit</button>
+    </form>
+</div>
+
+
+</body>
+
+</html>
+
+
